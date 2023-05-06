@@ -6,7 +6,7 @@ public class magic_square {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		
+		int c[5] = {0,1,2,3,4,5};
 		int n = 0;									//입력받을 변수
 		System.out.print("n : ");
 		n = sc.nextInt();							//정수 입력
